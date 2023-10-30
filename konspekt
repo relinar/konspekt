@@ -115,3 +115,10 @@ while (i < 10) {
     }
     i++;
 }
+
+
+Promise
+* => funktsioon
+* . operaator
+* finally, catch, then
+sünkroonne ja asünkroonne
