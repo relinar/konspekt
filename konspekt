@@ -1,0 +1,117 @@
+Operaatorid:
+< >
+==
+===
++
+-
+=  assigment
+!=  mitte võrdne
+[]  teeb uue array
+muutuja[0]  otsib esimest asja muutuja seest
+. otsib parempoolset sõna vasakpoolse asja seest
+*
+/
+&&  and - kui vasak ja parem pool on true, tagastab true, kui üks on false on tulemus false
+!
+**
+<=
+>=
+||  or
+%  jäägiga jagamine
+
+Syntax - õigekiri, lause ehitus
+
+Control flow ja conditionals:
+if, while, for, else
+switch
+do while
+
+Functions:
+prompt - veebilehitsejas küsib kasutajalt string sisendi
+console.log()
+
+Data types:
+boolean - true/false 1/0
+number
+string (sõne) - tekst
+undefined null - tühi muutuja
+
+Andmestruktuurid:
+array (List) - hulk, konteiner, karp   []
+object (Dictionary, Map, HashMap, assocative array)   {}
+
+[] vahest on uus array, vahest on array seest lugemine
+{} vahest on uus object, vahest on koodi plokk
+
+index
+array = [7,5,2,4]
+
+property = key-value pairs
+
+key=name=nimi=võti
+value=väärtus
+
+object = {
+   nimi: "Timo",
+   amet: "Õpetaja"
+}
+
+array = []
+object = {}
+
+if () {}                     <- see ei ole object
+function test() {return 2}   <- see ei ole object
+
+console.log( {} )            <- see on object
+console.log( () => {} )      <- see ei ole object
+
+
+i = 10
+
+while (i <= 30) {
+    console.log(i)
+    i++
+}
+
+
+i = 0
+b = prompt()
+
+while (i <= b) {
+    console.log(i)
+    i++
+}
+
+
+apple = 0
+pear = 0
+
+running = true
+while (running) {
+    puuvili = prompt("sisesta puuvili")
+    if (puuvili == "apple") {
+        apple++;
+    }
+    else if (puuvili == "pear") {
+        pear++;
+    }
+    else {
+        console.log("tundmatu puuvili")
+        running = false;
+    }
+}
+
+
+puuvili = prompt("sisesta mõni puuvili")
+let puuviljalist = []
+for (let i = 0; i < 10; i++) {
+    let sisend = prompt()
+    puuviljalist.push(sisend)
+}
+let i = 0
+while (i < 10) {
+    if(puuviljalist[i]!="") {
+        console.log(puuviljalist[i])
+    }
+    i++;
+}
