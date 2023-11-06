@@ -122,3 +122,25 @@ Promise
 * . operaator
 * finally, catch, then
 sünkroonne ja asünkroonne
+
+
+
+
+
+_ [_]  //operaator - võta muutuja (konteineri) seest
+  [_]  //operaator - tee uus array
+
+
+
+let inputString = "hello";
+let reversedString = "";
+
+for (let i = inputString.length - 1; i >= 0; i--) {
+reversedString += inputString[i];
+}
+
+console.log(reversedString);        //olleh
+
+
+
+
